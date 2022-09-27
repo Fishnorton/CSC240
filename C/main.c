@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #define TRUE 1
 #define FALSE 0
 
@@ -13,7 +15,7 @@ int main() {
     
     do {
         printf("Enter total items");
-        scanf("$d", &n);
+        scanf("%d", &n);
 
         printf("Enter items taken at one time: ");
         scanf("%d", &r);
