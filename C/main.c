@@ -31,3 +31,24 @@ int main() {
 
     return 0;
 }
+
+int isOK(int n, int r) {
+    if (n > 0 && r > 0 && n >= r) {
+        return TRUE;
+    } else {
+        return FALSE;
+    }
+}
+
+
+//calculates number of combonations using the formula
+int combos(int n, int r) {
+    return factorial(n) / (factorial(r) * factorial(n-r));
+}
+
+int factorial(int num) {
+    if (num == 0) {
+        return 1;
+    }
+    return num * factorial(num-1);
+}
