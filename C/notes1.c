@@ -7,7 +7,7 @@ int isOK(int n, int r);
 int combos(int n, int r);
 int factorial(int num);
 
-int main() {
+int notes1() {
     
     int n;
     int r;
