@@ -3,6 +3,38 @@
 //int x (location in memory)
 //1 (data in that location (address))
 //&gets the address of a variable (not the value)
+
+
+//x means variable
+//*p1 means a pointer
+//&d means get the address of the variable
+
+// c = 'T','6940'
+// d = 'S','9772'
+// e = '2224'
+// *p1 = '6940'
+// *p2 = '9772'
+// *p3 = ''
+
+// p3 = &d
+// p3 = '8872'
+// printf(): 'S' 
+
+// p3 = p1
+// p3 = '6940'
+// printf(): *p3 = 'S', p3 = '6940'
+// //*p3 is looking for char
+
+// *p1 = *p2
+// *p1 = '9772'
+// printf(): *p1 = '6940', p1 = 'S', 
+
+
+
+
+
+
+
 #include <stdio.h>
 
 int main() {
